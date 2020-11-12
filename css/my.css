@@ -1,0 +1,52 @@
+ .title{
+  margin-left: 38rem;
+ }
+ .line{
+	text-decoration: line-through;
+
+}
+.body{
+    background: url(../img/background.jpg) no-repeat fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;   
+    background-repeat: no-repeat;      
+
+    color: #ffff;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.click{
+	margin: 1.2rem;
+	margin-left: 35.1rem;
+	background: rgba(0,0,0,0);
+    border-radius: 3rem;
+
+}
+.clear{
+	margin-left: 2.5rem;
+	border-radius: 3rem;
+	background: rgba(0,0,0,0);
+}
+.delete{
+	border-radius: 3rem;
+	margin-left: 1.5rem ;
+    background: rgba(0,0,0,0);
+
+}
+.note{
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-left: 35rem;
+}
+.block{
+	  margin-left: 33rem;
+	  background: rgb(0,0,0,0.5);
+	  display: inline-block;
+}
+span{
+	  font-size: 1.1rem;
+}
+*{
+	  position: sticky;
+
+}
