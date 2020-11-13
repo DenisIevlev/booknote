@@ -73,10 +73,10 @@ span{
 @media (max-width: 992px){
 	.block{
 	     position: absolute;
-	     left: 150px;
+	     left: 200px;
 	}
 	.title{
-	margin-left: 2em;
+	margin-left: 2.2em;
 	}
 	.note{
        margin-left: 0.7em;
