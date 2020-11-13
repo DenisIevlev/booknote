@@ -1,9 +1,19 @@
  .title{
-  margin-left: 38rem;
+ 	margin-left: 4rem;
  }
  .line{
 	text-decoration: line-through;
-
+}
+.wrapper{
+	display: flex;
+	flex-direction: row;
+	min-height: 100%;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0px 15px;
+	display: inline-block;
 }
 .body{
     background: url(../img/background.jpg) no-repeat fixed;
@@ -11,42 +21,79 @@
     background-attachment: fixed;
     background-position: center center;   
     background-repeat: no-repeat;      
-
     color: #ffff;
     font-family: Helvetica, Arial, sans-serif;
 }
 .click{
 	margin: 1.2rem;
-	margin-left: 35.1rem;
 	background: rgba(0,0,0,0);
     border-radius: 3rem;
+    position: relative;
+    top: 10px;
 
 }
 .clear{
 	margin-left: 2.5rem;
 	border-radius: 3rem;
 	background: rgba(0,0,0,0);
+	position: relative;
+    top: 10px;
 }
 .delete{
 	border-radius: 3rem;
 	margin-left: 1.5rem ;
     background: rgba(0,0,0,0);
+    position: relative;
+    top: 10px;
 
 }
 .note{
 	font-size: 20px;
 	margin-bottom: 20px;
-	margin-left: 35rem;
+	border-radius: 2em;
+	height: 30px;
+	position: absolute;
+	top: 70px;
+	margin-left: 0.8em;
 }
 .block{
-	  margin-left: 33rem;
-	  background: rgb(0,0,0,0.5);
+	  margin: 0 auto;
+	  background: rgba(0,0,0,0.5);
 	  display: inline-block;
+	  position: relative;
+	  left: 560px;
 }
 span{
-	  font-size: 1.1rem;
-}
-*{
-	  position: sticky;
+	  font-size: 1.2rem;
 
+}
+@media (max-width: 1200px){
+	.block{
+		 position: relative;
+	     left: 480px;
+	}
+}
+@media (max-width: 992px){
+	.block{
+		 position: absolute;
+	     left: 360px;
+	}
+}
+@media (max-width: 767px){
+	.block{
+	  position: absolute;
+	  left: 260px;
+	}
+}
+@media (max-width: 500px){
+	.block{
+	position: absolute;
+	left: 120px;
+	}
+}
+@media (max-width: 400px){
+	.block{
+	  position: absolute;
+	  left: 80px;
+	}
 }
