@@ -100,6 +100,14 @@ span{
 @media (max-width: 400px){
 	.block{
 	 position: absolute;
-	 left: 50px;
+	 left: 20px;
 	}
+	span{
+	 font-size: 1rem;
+	}
+	 .title{
+ 	margin-left: 2rem;
+ }
+}
+
 }
