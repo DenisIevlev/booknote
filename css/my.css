@@ -58,7 +58,7 @@
 	  background: rgba(0,0,0,0.5);
 	  display: inline-block;
 	  position: relative;
-	  left: 560px;
+	  left: 470px;
 }
 span{
 	  font-size: 1.2rem;
@@ -67,7 +67,7 @@ span{
 @media (max-width: 1200px){
 	.block{
 		 position: relative;
-	     left: 480px;
+	     left: 470px;
 	}
 }
 @media (max-width: 992px){
