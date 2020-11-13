@@ -85,6 +85,12 @@ span{
 	  left: 260px;
 	}
 }
+@media (max-width: 600px){
+	.block{
+	position: absolute;
+	left: 170px;
+	}
+}
 @media (max-width: 500px){
 	.block{
 	position: absolute;
