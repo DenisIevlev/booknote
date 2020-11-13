@@ -67,7 +67,7 @@ span{
 @media (max-width: 1200px){
 	.block{
 		 position: relative;
-	     left: 480px;
+	     left: 350px;
 	}
 }
 @media (max-width: 992px){
