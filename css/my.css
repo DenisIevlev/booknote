@@ -20,7 +20,6 @@
     background-size: cover;
     color: #ffff;
     font-family: Helvetica, Arial, sans-serif;
-    max-width: 100%;
 }
 .click{
 	margin: 1.2rem;
@@ -82,17 +81,20 @@ span{
 	  position: absolute;
 	  left: 260px;
 	}
+	.note{
+          margin-left: 0.7em;
+	}
 }
 @media (max-width: 600px){
 	.block{
 	position: absolute;
-	left: 170px;
+	left: 20px;
 	}
 }
 @media (max-width: 500px){
 	.block{
 	position: absolute;
-	left: 120px;
+	left: 20px;
 	}
 }
 @media (max-width: 400px){
