@@ -79,6 +79,7 @@ span{
 @media (max-width: 767px){
 	.block{
 	  position: absolute;
+	  left: 0px;
 	}
 	.title{
 	margin-left: 2em;
@@ -90,16 +91,19 @@ span{
 @media (max-width: 600px){
 	.block{
 	position: absolute;
+	left: 0px;
 	}
 }
 @media (max-width: 500px){
 	.block{
 	position: absolute;
+	left: 0px;
 	}
 }
 @media (max-width: 400px){
 	.block{
 	  position: absolute;
+	  left: 0px;
 	}
 	span{
 	 font-size: 1rem;
