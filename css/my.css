@@ -66,14 +66,14 @@ span{
 }
 @media (max-width: 1200px){
 	.block{
-		 position: relative;
+		position: relative;
 	     left: 400px;
 	}
 }
 @media (max-width: 992px){
 	.block{
 	     position: absolute;
-	     left: 250px;
+	     left: 350px;
 	}
 	.title{
 	margin-left: 2.2em;
