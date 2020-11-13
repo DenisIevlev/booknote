@@ -37,14 +37,14 @@
 	border-radius: 3rem;
 	background: rgba(0,0,0,0);
 	position: relative;
-        top: 10px;
+    top: 10px;
 }
 .delete{
 	border-radius: 3rem;
 	margin-left: 1.5rem ;
-        background: rgba(0,0,0,0);
-        position: relative;
-        top: 10px;
+    background: rgba(0,0,0,0);
+    position: relative;
+    top: 10px;
 
 }
 .note{
@@ -69,24 +69,24 @@ span{
 }
 @media (max-width: 1200px){
 	.block{
-	 position: relative;
-	 left: 480px;
+		 position: relative;
+	     left: 480px;
 	}
 }
 @media (max-width: 992px){
 	.block{
-         position: absolute;
-	 left: 360px;
+		 position: absolute;
+	     left: 360px;
 	}
 }
 @media (max-width: 767px){
 	.block{
-	 position: absolute;
-	 left: 260px;
+	  position: absolute;
+	  left: 260px;
 	}
 }
 @media (max-width: 600px){
-        .block{
+	.block{
 	position: absolute;
 	left: 170px;
 	}
@@ -99,8 +99,8 @@ span{
 }
 @media (max-width: 400px){
 	.block{
-	 position: absolute;
-	 left: 20px;
+	  position: absolute;
+	  left: 20px;
 	}
 	span{
 	 font-size: 1rem;
