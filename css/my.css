@@ -37,8 +37,8 @@
     top: 10px;
 }
 .delete{
-	border-radius: 3rem;
-	margin-left: 1.5rem ;
+    border-radius: 3rem;
+    margin-left: 1.5rem ;
     background: rgba(0,0,0,0);
     position: relative;
     top: 10px;
@@ -80,6 +80,9 @@ span{
 	.block{
 	  position: absolute;
 	  left: 260px;
+	}
+	.title{
+	margin-left: 4.2em;
 	}
 	.note{
           margin-left: 0.7em;
