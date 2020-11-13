@@ -73,7 +73,7 @@ span{
 @media (max-width: 992px){
 	.block{
 	     position: absolute;
-	     left: 250px;
+	     left: 150px;
 	}
 	.title{
 	margin-left: 2em;
