@@ -16,13 +16,11 @@
 	display: inline-block;
 }
 .body{
-    background: url(../img/background.jpg) no-repeat fixed;
+    background: url(../img/background.jpg) no-repeat center center fixed;
     background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;   
-    background-repeat: no-repeat;      
     color: #ffff;
     font-family: Helvetica, Arial, sans-serif;
+    max-width: 100%;
 }
 .click{
 	margin: 1.2rem;
@@ -54,7 +52,7 @@
 	height: 30px;
 	position: absolute;
 	top: 70px;
-	margin-left: 0.8em;
+	margin-left: 0.7em;
 }
 .block{
 	  margin: 0 auto;
