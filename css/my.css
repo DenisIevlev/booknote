@@ -16,7 +16,7 @@
 	display: inline-block;
 }
 .body{
-    background: url(../img/background.jpg) no-repeat center center fixed;
+    background: url(../img/bgground.jpg) no-repeat fixed;
     background-size: cover;
     color: #ffff;
     font-family: Helvetica, Arial, sans-serif;
@@ -65,12 +65,20 @@ span{
 
 }
 @media (max-width: 1200px){
+	.body{
+            background: url(../img/bgground.jpg) no-repeat fixed;
+            background-size: cover;
+	}
 	.block{
 	     position: relative;
 	     left: 300px;
 	}
 }
 @media (max-width: 992px){
+	.body{
+            background: url(../img/bgground.jpg) no-repeat fixed;
+            background-size: cover;
+	}
 	.block{
 	     position: absolute;
 	     left: 250px;
@@ -83,6 +91,10 @@ span{
 	}
 }
 @media (max-width: 767px){
+	.body{
+         background: url(../img/mground.jpg) no-repeat fixed;
+         background-size: cover;
+	}
 	.block{
 	  position: absolute;
 	  left: 5px;
@@ -95,18 +107,30 @@ span{
 	}
 }
 @media (max-width: 600px){
+	.body{
+         background: url(../img/mground.jpg) no-repeat fixed;
+         background-size: cover;
+	}
 	.block{
 	position: absolute;
 	left: 5px;
 	}
 }
 @media (max-width: 500px){
+	.body{
+         background: url(../img/smground.jpg) no-repeat fixed;
+         background-size: cover;
+	}
 	.block{
 	position: absolute;
 	left: 5px;
 	}
 }
 @media (max-width: 400px){
+	.body{
+         background: url(../img/smground.jpg) no-repeat fixed;
+         background-size: cover;
+	}
 	.block{
 	  position: absolute;
 	  left: 5px;
