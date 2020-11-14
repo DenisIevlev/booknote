@@ -16,13 +16,14 @@
 	display: inline-block;
 }
 .body{
-    background: url(../img/background.jpg) no-repeat center center fixed;
-    background-size: cover;
+    background: url(../img/bground.jpg) no-repeat center center fixed;
+    background-size: cover;    
     color: #ffff;
     font-family: Helvetica, Arial, sans-serif;
+    min-width: 100%;
 }
 .click{
-	margin: 1.2rem;
+	margin: 1.1rem;
 	background: rgba(0,0,0,0);
     border-radius: 3rem;
     position: relative;
@@ -37,8 +38,8 @@
     top: 10px;
 }
 .delete{
-    border-radius: 3rem;
-    margin-left: 1.5rem ;
+	border-radius: 3rem;
+	margin-left: 1.5rem ;
     background: rgba(0,0,0,0);
     position: relative;
     top: 10px;
@@ -66,23 +67,26 @@ span{
 }
 @media (max-width: 1200px){
 	.block{
-	     position: relative;
+		 position: relative;
 	     left: 300px;
 	}
 }
 @media (max-width: 992px){
 	.block{
-	     position: absolute;
-	     left: 250px;
+	position: absolute;
+	left: 250px;
 	}
 	.title{
 	margin-left: 2.1em;
 	}
 	.note{
-       margin-left: 0.3em;
+    margin-left: 0.3em;
 	}
 }
 @media (max-width: 767px){
+	.body{
+	background-image: url(../img/background.jpg); 
+	}
 	.block{
 	  position: absolute;
 	  left: 5px;
@@ -91,7 +95,7 @@ span{
 	margin-left: 2.2em;
 	}
 	.note{
-          margin-left: 0.3em;
+    margin-left: 0.3em;
 	}
 }
 @media (max-width: 600px){
@@ -111,13 +115,10 @@ span{
 	  position: absolute;
 	  left: 5px;
 	}
-	span{
-	 font-size: 1rem;
-	}
 	 .title{
  	margin-left: 4.2rem;
  }
 	.note{
 	 margin-left: 0.3em;
-}
+ }
 }
