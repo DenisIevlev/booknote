@@ -92,7 +92,7 @@ span{
 }
 @media (max-width: 767px){
 	.body{
-         background: url(../img/mground.jpg) no-repeat fixed;
+         background: url(../img/mground.jpg) no-repeat center center fixed;
          background-size: cover;
 	}
 	.block{
@@ -108,7 +108,7 @@ span{
 }
 @media (max-width: 600px){
 	.body{
-         background: url(../img/mground.jpg) no-repeat fixed;
+         background: url(../img/mground.jpg) no-repeat center center fixed;
          background-size: cover;
 	}
 	.block{
