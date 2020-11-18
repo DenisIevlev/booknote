@@ -124,6 +124,10 @@ span{
 	.block{
 	position: absolute;
 	left: 5px;
+	max-width: 97%;
+	}
+	span{
+	font-size: 0.7rem;
 	}
 }
 @media (max-width: 400px){
